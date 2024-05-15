@@ -1,0 +1,7 @@
+{
+  "name": "milliomos_legujabb_webes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

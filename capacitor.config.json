@@ -1,0 +1,9 @@
+{
+  "appId": "com.fortico.milliomos",
+  "appName": "milliomos",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "url": "http://192.168.1.4:8101"
+  }
+}

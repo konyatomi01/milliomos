@@ -1,0 +1,66 @@
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("assets/Roboto-Medium.ttf");
+}
+
+body {
+  background-image: url("/legyen_milliomos_cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family:  myFirstFont;
+  font-size: calc(15px + 0.390625vw);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media (orientation: portrait) {
+  body {
+    margin-inline: 10px;
+  }
+}
+
+body {
+  margin-top: constant(safe-area-inset-top);
+  margin-top: env(safe-area-inset-top);
+}
+
+ion-tab-bar {
+  margin-bottom: calc(7px + env(safe-area-inset-top));
+}
+
+button {
+  
+  background-color: #1B12A8;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-family: myFirstFont;
+}
+button:hover {
+  background-color: #1f1977;
+}
+
+.text {
+  color: #ffffcc;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+table {
+  margin-top: 3rem; 
+  width: 100%;
+  border-collapse: separate; 
+  border-spacing: 5em;
+  
+}
+ td {
+  text-align: center;
+ }

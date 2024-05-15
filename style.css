@@ -1,0 +1,41 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+body {
+  background-image: url("legyen_milliomos_cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: #1B12A8;
+  color: #ffffff;
+  border-radius: 16px;
+  width: 30rem;
+  height: 10rem;
+  font-size: 2rem;
+  
+}
+
+.text {
+  color: #ffffcc;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+table {
+  margin-top: 10rem; 
+  width: 100%;
+  border-collapse: separate; 
+  border-spacing: 5em;
+  
+}
+ td {
+  text-align: center;
+ }
