@@ -43,9 +43,7 @@ button {
   cursor: pointer;
   font-family: myFirstFont;
 }
-button:hover {
-  background-color: #1f1977;
-}
+
 
 .text {
   color: #ffffcc;
